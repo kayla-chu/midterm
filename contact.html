@@ -1,15 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Us</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="activities.html">Things To Do</a>
+      <a href="dining.html">Places To Eat</a>
+      <a href="statement.html">Design Statement</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
 
-	<h1>Contact Us</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	
+  <section>
+    <h2>We’d Love to Hear From You!</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone #:</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="5"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact us: travel@discoverhongkong.com | +852 1234 5678</p>
+  </footer>
 </body>
 </html>
