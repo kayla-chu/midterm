@@ -42,7 +42,7 @@
 }
 
 body {
-  font-family: 'Charis SIL';
+  font-family: 'Assistant';
   margin: 0;
   padding: 0;
   color: #333;
@@ -57,6 +57,10 @@ header {
       padding-right: 16px;
       padding-top: 0;
       padding-bottom: 0;
+}
+
+p {
+      font-family: 'Charis SIL';
 }
 
 nav a {
