@@ -33,10 +33,13 @@ body {
 }
 
 header {
-  background-color: #001f3f;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
+        background-color: #001f3f;
+        color: white;
+        text-align: center;
+        padding-left: 16px;
+      padding-right: 16px:
+      padding-top: 0;
+      padding-bottom: 0;
 }
 
 nav a {
