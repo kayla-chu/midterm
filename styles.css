@@ -113,26 +113,24 @@ button:hover {
 }
 
 .highlights {
-  background-color: #f2f2f2;   /* light gray background around section */
-  padding: 20px;               /* space inside box */
-  border-radius: 10px;          /* rounded corners */
-  max-width: 700px;             /* keeps it from stretching too wide */
-  margin: 20px auto;            /* centers the box horizontally */
-}
-
-.highlights h2 {
-  text-align: left;             /* keeps title aligned with list */
-  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;           /* centers content */
 }
 
 .highlights ul {
-  list-style-position: inside;  /* keeps bullet right next to text */
-  padding-left: 0;              /* removes default indentation */
-  text-align: left;             /* keeps text aligned with bullets */
+  list-style-position: inside;  /* bullet stays next to text */
+  display: inline-block;        /* allows the list to center as a block */
+  text-align: left;             /* keeps bullet + text nicely aligned together */
+  margin: 0;
+  padding: 0;
 }
 
 .highlights li {
-  margin: 5px 0;                /* spacing between list items */
+  margin: 5px 0;
 }
 
 section {
