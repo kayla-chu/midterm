@@ -175,3 +175,17 @@ button[type="submit"] {
   background-color: #ffcc00;
   color: black;
 }
+
+.introduction {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #222;
+  background-color: #f0f8ff; /* subtle light blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
