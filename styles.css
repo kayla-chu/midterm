@@ -138,8 +138,6 @@ section {
   text-align: center;
 }
 
-}
-
 footer {
   background-color: #611107;
   color: white;
@@ -232,7 +230,6 @@ button[type="submit"] {
 }
 
 .activity-text h2 {
-  font-family: 'Playfair Display', serif;
   color: #001f3f;
   margin-bottom: 10px;
 }
@@ -291,7 +288,6 @@ button[type="submit"] {
 }
 
 .restaurant-text h2 {
-  font-family: 'Playfair Display', serif;
   color: #8B0000;
   margin-bottom: 10px;
 }
@@ -303,15 +299,16 @@ button[type="submit"] {
 
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
-  .activity {
+  .activity, .restaurant {
     flex-direction: column;
   }
 
-  .activity img, .activity-text {
+  .activity img, .activity-text,
+  .restaurant img, .restaurant-text {
     width: 100%;
   }
 
-  .activity-text {
+  .activity-text, .restaurant-text {
     text-align: center;
   }
 }
