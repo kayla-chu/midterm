@@ -58,7 +58,6 @@ header {
       padding-bottom: 0;
 }
 
-
 h1, h2, h3, h4, h5 {
       font-family: 'Charis SIL';
 }
@@ -187,8 +186,8 @@ button[type="submit"] {
   padding: 20px;
   font-size: 1.1rem;
   text-align: center;
-  color: #222;
-  background-color: #f0f8ff;
+  color: #FFF5F5;
+  background-color: #BA8F8F;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -206,7 +205,7 @@ button[type="submit"] {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: #fff;
+  background: #E5D2D2;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -230,7 +229,7 @@ button[type="submit"] {
 }
 
 .activity-text h2 {
-  color: #001f3f;
+  color: #450D0D;
   margin-bottom: 10px;
 }
 
@@ -246,8 +245,8 @@ button[type="submit"] {
   padding: 20px;
   font-size: 1.1rem;
   text-align: center;
-  color: #222;
-  background-color: #fff8f0;
+  color: #FFF5F5;
+  background-color: #BA8F8F;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -265,7 +264,7 @@ button[type="submit"] {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: #fff;
+  background: #E5D2D2;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -288,7 +287,7 @@ button[type="submit"] {
 }
 
 .restaurant-text h2 {
-  color: #8B0000;
+  color: #450D0D;
   margin-bottom: 10px;
 }
 
