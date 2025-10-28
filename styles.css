@@ -135,6 +135,11 @@ button:hover {
 section {
   padding: 20px;
   text-align: center;
+  margin-bottom: 10px; 
+}
+
+section h2 {
+       margin-bottom: 10px; 
 }
 
 footer {
