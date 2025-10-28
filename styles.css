@@ -173,8 +173,8 @@ button[type="submit"] {
   font-size: 1.1rem;
   line-height: 1.8;
   text-align: center;
-  color: #222;
-  background-color: #F5D7D7; 
+  color: #FFF5F5;
+  background-color: #BA8F8F; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
