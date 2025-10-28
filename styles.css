@@ -301,6 +301,45 @@ button[type="submit"] {
   color: #444;
 }
 
+/* ----- Statement Section ----- */
+.statement {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  background-color: #FFECE8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  line-height: 1.8;
+}
+
+.statement h2 {
+  text-align: center;
+  color: #611107;
+  margin-bottom: 20px;
+}
+
+.citations {
+  max-width: 800px;
+  margin: 20px auto 60px;
+  padding: 20px;
+  background-color: #FFD4D1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.citations h3 {
+  color: #611107;
+  text-align: center;
+}
+
+.citations ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
   .activity, .restaurant {
