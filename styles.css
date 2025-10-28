@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 button {
-  background-color: #ffcc00;
+  background-color: #611107;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-  background-color: #ffaa00;
+  background-color: #BA8F8F;
 }
 
 .highlights {
