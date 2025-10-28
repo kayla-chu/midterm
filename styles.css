@@ -306,7 +306,7 @@ button[type="submit"] {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px 40px;
-  background-color: #FFECE8;
+  background-color: #E0D1D1;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: left;
@@ -323,13 +323,13 @@ button[type="submit"] {
   max-width: 800px;
   margin: 20px auto 60px;
   padding: 20px;
-  background-color: #FFD4D1;
+  background-color: #BA8F8F;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .citations h3 {
-  color: #611107;
+  color: #FFF5F5;
   text-align: center;
 }
 
