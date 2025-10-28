@@ -338,6 +338,7 @@ button[type="submit"] {
   text-align: left;
   margin: 10px auto;
   max-width: 600px;
+  color: #FFF5F5;  
 }
 
 /* Responsive layout for smaller screens */
